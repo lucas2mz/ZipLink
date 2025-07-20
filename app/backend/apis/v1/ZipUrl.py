@@ -23,7 +23,7 @@ class Link(Resource):
 
         data = {
                 "original_url": url, 
-                "short_url": f"http://localhost:5000/{short_code}", 
+                "short_url": f"http://localhost:5000/api/{short_code}", 
                 "short_code": short_code, 
                 "visits": 0
         }
